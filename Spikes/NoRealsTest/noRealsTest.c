@@ -8,6 +8,9 @@
 
 int main(int argc, char *argv[])
 {
+	assert(argc == 4);
+	double* image = noReals(atof(argv[1]), atof(argv[2]), atof(argv[3]));
+	assert(image != NULL);
 
 	return 0;
 }
