@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-std=c99 -Wall -o
-testfile=twoReal
+testfile=twoRealTest
 
 all:
 	$(CC) $(CFLAGS) $(testfile).o $(testmain).c ../../$(testfile).c
