@@ -9,10 +9,15 @@ int main(int argc, char* argv[])
 	{
 		double inf = atof(argv[1]) / atof(argv[2]);
 		char * expected = argv[3];
-		printf("Result: %lf\nExpected: %s\n", inf, expected);
+		printf("Result: %lf\nExpected Result: %s\n", inf, expected);
 	}
 	else
 		printf("Please enter two double values and the expected result.");
 	
 	return 0;
 }
+
+
+//assign variables something
+//don't use atof
+//denormalized number and normalized number checker 

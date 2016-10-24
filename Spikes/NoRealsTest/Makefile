@@ -1,10 +1,10 @@
 CC=gcc
 CFLAGS=-std=c99 -Wall -o
-testfile=noRealsTest
+testfile=noReals
+testmain=noRealsTest
 
 all:
 	$(CC) $(CFLAGS) $(testfile).o $(testmain).c ../../$(testfile).c
-	echo "You can use 'make test' to run automated tests"
 
 test:
 	-./$(testfile).o

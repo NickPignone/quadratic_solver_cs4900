@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
 	{
 		double result = sqrt(atof(argv[1]));
 		char* expected = argv[2];
-		printf("Result: %lf\nExpected: %s\n", result, expected);
+		printf("Result: %lf\nExpected Result: %s\n", result, expected);
 	}
 	else
 		printf("Enter a double value to find its square root and your expected outcome.\n");
