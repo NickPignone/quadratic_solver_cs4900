@@ -1,1 +1,1 @@
-This program, discTest.c, is used to validate the input and output of the discriminant.c function. The makefile has the 2 main test cases: no variables and good data. 
+This program, discTest.c, is used to validate the input and output of the discriminant.c function. The makefile contains one use case.

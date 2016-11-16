@@ -1,1 +1,1 @@
-This program, twoRealTest.c, is used to validate the input and output of the twoReal.c funciton. The makefile has the 4 main test cases: no variables, a = 0, determinant is the wrong one for this function, and good data. 
+This program, outputTest.c, is used to validate the output of the output.c function. The makefile has the 1 main test case.

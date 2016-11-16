@@ -18,6 +18,8 @@ all:
 	cd Spikes/OneRealTest; make
 	cd Spikes/TwoRealTest; make
 	cd Spikes/OutputTest; make
+	cd Spikes/NaN_Infs; make
+	cd Spikes/SquareRoot; make
 	@echo "You can use make test to run automated tests or make run to run the main program"
 
 run:
@@ -32,6 +34,8 @@ test:
 	cd Spikes/OneRealTest; make test
 	cd Spikes/TwoRealTest; make test
 	cd Spikes/OutputTest; make test
+	cd Spikes/NaN_Infs; make test
+	cd Spikes/SquareRoot; make test
 	$(CC) $(CFLAGS) mock.o $(mainfile).c mock.c
 	-./mock.o
 	@echo "Output should be 'Single root is: -1.00'"

@@ -8,4 +8,3 @@ all:
 
 test:
 	-./$(testfile).o 2 4 6
-	-./$(testfile).o
