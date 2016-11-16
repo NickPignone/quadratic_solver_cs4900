@@ -1,0 +1,1 @@
+This program is used to validate the funciton getInput from input.c. The makefile uses test cases where all of the flags are set and then a case where not al of the flags are set. When a flag isn't set, it will prompt the user to input that variable. 
