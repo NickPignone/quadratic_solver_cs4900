@@ -1,5 +1,9 @@
 # quadratic_solver_cs4900
 Quadratic Solver Programming Assignment in C
+Use the Makefile in this directory to test the entire application.
+You can do so by:
+	- Run make
+	- Run make test
 
 input.c:
 	This takes in user input. Users can use the flags a, b, c, x, and y when calling the executable. a, b, and c are the variables and x and y are the expected values.  
