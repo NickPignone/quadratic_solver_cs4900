@@ -1,0 +1,1 @@
+AbsoluteError.c is used to find the absolute error between two numbers. The actual result of calcualtions, and the expected result.

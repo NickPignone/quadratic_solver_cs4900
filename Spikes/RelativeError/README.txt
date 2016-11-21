@@ -1,0 +1,1 @@
+relativeError.c checks for the relative error between two results. The actual result, and the expected result.

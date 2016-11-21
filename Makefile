@@ -20,7 +20,6 @@ all:
 	cd Spikes/OutputTest; make
 	cd Spikes/NaN_Infs; make
 	cd Spikes/SquareRoot; make
-	@echo "You can use make test to run automated tests or make run to run the main program"
 
 run:
 	./$(mainfile).o

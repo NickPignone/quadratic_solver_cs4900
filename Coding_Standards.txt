@@ -1,0 +1,3 @@
+Coding Standards: we used the Indian Hill coding standards of C.
+
+Information regarding this standard can be found here: http://ieng9.ucsd.edu/~cs30x/indhill-cstyle.html

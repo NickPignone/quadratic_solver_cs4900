@@ -4,7 +4,6 @@ file=nan_inf
 
 all:
 	$(CC) $(CFLAGS) $(file).o $(file).c -lm
-	echo "You can use 'make test' to run automated tests"
 
 test:
 	./$(file).o 0.0 0.0 nan

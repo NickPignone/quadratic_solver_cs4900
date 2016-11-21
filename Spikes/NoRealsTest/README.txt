@@ -1,0 +1,1 @@
+noRealsTest.c checks that if there are no reals in the quadradic solver.

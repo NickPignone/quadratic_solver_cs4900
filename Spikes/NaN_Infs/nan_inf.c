@@ -16,8 +16,3 @@ int main(int argc, char* argv[])
 	
 	return 0;
 }
-
-
-//assign variables something
-//don't use atof
-//denormalized number and normalized number checker 

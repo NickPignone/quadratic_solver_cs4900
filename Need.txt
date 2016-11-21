@@ -1,4 +1,0 @@
-Range of single precisioin and double
-Header files you need
-Print them out, see what IEEE says about that 
-input and output.c files

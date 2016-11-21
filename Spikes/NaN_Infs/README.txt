@@ -1,0 +1,1 @@
+nan_inf.c checks for NAN's and infinities in the quadradic solver.

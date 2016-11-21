@@ -1,0 +1,1 @@
+twoRealTest.c checks if there are two reals in the quadratic solver.

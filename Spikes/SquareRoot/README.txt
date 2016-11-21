@@ -1,0 +1,1 @@
+sqrt.c is square root function that is ran using the Makefile supplied in the directory. Or can be tested using the master Makefile in the main directory.
